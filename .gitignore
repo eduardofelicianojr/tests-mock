@@ -1,0 +1,7 @@
+echo "node_modules/
+.env
+logs
+*.log
+.vscode/
+.DS_Store
+Thumbs.db" > .gitignore
