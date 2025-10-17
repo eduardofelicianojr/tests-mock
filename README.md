@@ -3,15 +3,12 @@
 Projeto desenvolvido em **Node.js + Express**, com testes automatizados usando **Jest e Supertest**.  
 O objetivo é implementar um CRUD simples de tarefas, seguindo os critérios de avaliação com 4 dimensões, e incluindo testes unitários, integração, aceitação e mock de API.
 
----
-
 ## Tecnologias Utilizadas
 - Node.js
 - Express
 - Jest
 - Supertest
 
----
 
 ##  Estrutura de Pastas
 
