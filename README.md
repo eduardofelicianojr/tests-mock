@@ -1,11 +1,11 @@
-# ✅ Gerenciador de Tarefas (To-Do App)
+# Gerenciador de Tarefas (To-Do App)
 
 Projeto desenvolvido em **Node.js + Express**, com testes automatizados usando **Jest e Supertest**.  
 O objetivo é implementar um CRUD simples de tarefas, seguindo os critérios de avaliação com 4 dimensões, e incluindo testes unitários, integração, aceitação e mock de API.
 
 ---
 
-## ✅ ✅ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 - Node.js
 - Express
 - Jest
@@ -16,26 +16,42 @@ O objetivo é implementar um CRUD simples de tarefas, seguindo os critérios de 
 ##  Estrutura de Pastas
 
 projeto/
+
 ├─ src/
+
 │ ├─ tarefa/
+
 │ │ ├─ Tarefa.js
+
 │ │ └─ tarefaController.js
+
 │ ├─ routes/
+
 │ │ └─ tarefaRoutes.js
+
 │ ├─ services/
+
 │ │ └─ externalService.js
+
 │ └─ app.js
+
 ├─ tests/
+
 │ ├─ tarefa.test.js
+
 │ ├─ tarefa.routes.test.js
+
 │ ├─ tarefa.acceptance.test.js
+
 │ └─ mocks/
+
 │ └─ externalService.mock.test.js
+
 ├─ package.json
+
 └─ README.md
 
 ## Instalar Dependências
-```bash
 npm install
 
 ## Caso falte o Supertest ou Jest:
