@@ -45,15 +45,19 @@ projeto/
 └─ README.md
 
 Instalar Dependências
+
 npm install
 
 Caso falte o Supertest ou Jest:
+
 npm install jest supertest --save-dev
 
 Rodar testes
+
 npm test npx jest --coverage
 
 Rotas da API
+
 GET /tarefas
 
 POST /tarefas Body: { "titulo": "...", "descricao": "..." }
@@ -65,6 +69,7 @@ PATCH /tarefas/:id/reabrir
 DELETE /tarefas/:id
 
 API mockada
+
 GET /api/external/notify
 
 Autor: Eduardo L Feliciano Jr. Data: 17/10/2025
