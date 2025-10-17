@@ -1,4 +1,4 @@
-const Tarefa = require("../src/tarefa/Tarefa");
+const Tarefa = require("./Tarefa");
 
 let tarefas = []; 
 
@@ -40,7 +40,7 @@ const tarefaController = {
             return res.status(404).json({ error: "Tarefa não encontrada" });
         }   
         tarefas.splice(id, 1);
-        res.status(204).send();
+        res.status(200).json({ mensage: "Tarefa removida com sucesso" });
     }
 };
 

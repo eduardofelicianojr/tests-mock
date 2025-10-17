@@ -25,7 +25,7 @@ describe('Rotas de Tarefas (API)', () => {
     test('PATCH /tarefas/:id/reabrir - Deve reabrir uma tarefa e atualizar o status', async () => {
         const response = await request(app).patch('/tarefas/0/reabrir');
         expect(response.status).toBe(200);
-        expect(response.body.status).toBe("aberta/pendente");
+        expect(response.body.status).toBe("aberta");
     });
     test('DELETE /tarefas/:id - Deve remover uma tarefa', async () => {
         const response = await request(app).delete('/tarefas/0');

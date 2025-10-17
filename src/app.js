@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const tarefaController = require('../routes/tarefaRoutes');
+const tarefaRoutes  = require('./routes/tarefaRoutes');
 
 app.use(express.json());
 app.use('/', tarefaRoutes);
