@@ -60,6 +60,6 @@ DELETE /tarefas/:id
 ## API mockada
 GET /api/external/notify
 
-Autor: Eduardo L Feliciano Jr
+Autor: Eduardo L Feliciano Jr.
 Data: 17/10/2025
 
